@@ -101,5 +101,4 @@ still figuring out the things
 Suggestions, Feedback and improvement are always welcome. This repository is available to fork and open PRs.
 learning and exploring the things more and more ...figuring out the  things..
 preparing for the SDE Interns...I can do anything.
-God is always with me . I'm the best. I can achieve anything. Believe in yourself .
-
+God is always with me . I'm the best. I can achieve anything....
