@@ -932,11 +932,11 @@ If you like this project:
 
 <p align="center">
 
-<a href="https://github.com/your-username">
+<a href="https://github.com/ronaksharma2908">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://linkedin.com/in/your-profile">
+<a href="https://linkedin.com/in/ronak29sharma">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
