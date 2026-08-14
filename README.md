@@ -1,381 +1,442 @@
-🚀 CareerTrack
+💼 CareerTrack
+🚀 Your Personal Internship & Job Application Command Center
+
+<p align="center"> <strong>Track applications. Manage interviews. Analyze your progress. Build your career.</strong> </p>
+
+<p align="center"> A modern, responsive MERN-stack career management platform designed to help students and job seekers organize their entire internship and job-search journey in one beautiful dashboard. </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:06b6d4&height=200&section=header&text=CareerTrack&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
-</p><h3 align="center">
-  💼 Your Personal Internship & Job Application Command Center
-</h3><p align="center">
-  <b>Track applications • Manage interviews • Analyze progress • Build your career</b>
-</p><p align="center"><img src="https://img.shields.io/badge/MERN-Stack-6366F1?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/></p><p align="center"><a href="#-features">✨ Features</a> •
-<a href="#-uiux-design">🎨 UI/UX</a> •
-<a href="#-installation">⚙️ Installation</a> •
-<a href="#-roadmap">🗺️ Roadmap</a>
 
-</p>---
 
-🌟 What is CareerTrack?
 
-CareerTrack is a modern full-stack MERN application designed for students and job seekers to manage their complete internship and job-search journey.
 
-Instead of keeping applications scattered across spreadsheets, bookmarks, emails, and notes, CareerTrack brings everything into one centralized workspace.
 
-<div align="center">🎯 One Dashboard. One Career Journey.
 
-      🔍 Discover
-           ↓
-      💼 Apply
-           ↓
-      📊 Track
-           ↓
-      📅 Interview
-           ↓
-      🎉 Get Selected
 
-</div>---
 
-🎨 UI/UX Design
+</p>
 
-CareerTrack follows a modern SaaS dashboard design philosophy.
+🌟 Why CareerTrack?
 
-✨ Design Goals
+Searching for internships and jobs often means managing:
 
-🎯 Principle| 💡 Implementation
-⚡ Fast| Quick actions & minimal clicks
-🎨 Modern| Clean cards & visual hierarchy
-📱 Responsive| Desktop, tablet & mobile
-🧠 Simple| Minimal cognitive load
-📊 Visual| Charts & status indicators
-♿ Accessible| Clear typography & contrast
+📧 Emails
+📑 Resumes
+🔗 Job links
+📅 Interview dates
+📝 Interview notes
+📊 Application statistics
+⏰ Deadlines
 
----
+CareerTrack brings everything together into a single, clean and intuitive workspace.
 
-🖥️ Dashboard Preview
+Instead of asking:
 
-<p align="center">╭──────────────────────────────────────────────────────────────╮
-│  🚀 CareerTrack                              🔔  👤 Ronak    │
-├───────────────┬──────────────────────────────────────────────┤
-│               │                                              │
-│ 🏠 Dashboard  │  Good morning, Ronak! 👋                    │
-│               │                                              │
-│ 💼 Applications│  ┌────────┐ ┌────────┐ ┌────────┐          │
-│               │  │  42    │ │   8    │ │   3    │          │
-│ 📅 Interviews │  │ Apps   │ │ Inter. │ │ Offers │          │
-│               │  └────────┘ └────────┘ └────────┘          │
-│ 📊 Analytics  │                                              │
-│               │  📈 Application Overview                     │
-│ 📄 Resumes    │  ┌──────────────────────────────────────┐   │
-│               │  │      ▄                                │   │
-│ ⚙️ Settings   │  │   ▄  ███     ▄██                      │   │
-│               │  │  ███ ████   ████                      │   │
-│               │  └──────────────────────────────────────┘   │
-│               │                                              │
-╰───────────────┴──────────────────────────────────────────────╯
+"Where did I apply?"
 
-</p>---
+CareerTrack helps you answer:
 
-✨ Features
+"Where am I in my career journey?"
 
-<table>
-<tr>
-<td width="50%">🔐 Authentication
+🖥️ UI / UX Philosophy
 
-Secure user accounts with:
+CareerTrack is designed around three principles:
 
-- JWT authentication
-- Password hashing
-- Protected routes
-- Login / Register
-- Persistent sessions
+🎯 Clarity
 
-</td><td width="50%">💼 Application Tracker
+Important information should be visible immediately.
 
-Manage every application:
+The dashboard prioritizes:
 
-- Company
-- Position
-- Location
-- Salary
-- Deadline
-- Status
-- Notes
+Applications
+     ↓
+Current Status
+     ↓
+Upcoming Interviews
+     ↓
+Important Deadlines
+⚡ Efficiency
 
-</td>
-</tr><tr>
-<td>📅 Interview Manager
+Common actions should require minimal clicks.
 
-Never miss an interview.
+Dashboard
+   │
+   ├── + Add Application
+   ├── View Applications
+   ├── Track Interview
+   └── View Analytics
+📱 Accessibility
 
-- Interview date
-- Time
-- Round
-- Type
-- Notes
-- Preparation
+The interface is designed to work smoothly across:
 
-</td><td>📊 Analytics
+💻 Desktop
+💻 Laptop
+📱 Tablet
+📱 Mobile
+🎨 Design System
+Visual Style
 
-Understand your job search:
+CareerTrack follows a modern SaaS-style interface.
 
-- Application trends
-- Success rate
-- Interview conversion
-- Status distribution
-- Monthly statistics
+┌───────────────────────────────────────────────────────┐
+│ CareerTrack                              👤 Profile   │
+├───────────────┬───────────────────────────────────────┤
+│               │                                       │
+│ 🏠 Dashboard  │   Good morning, Ronak 👋              │
+│               │                                       │
+│ 💼 Applications│  ┌──────┐ ┌──────┐ ┌──────┐        │
+│               │  │  42  │ │  8   │ │  3   │        │
+│ 📅 Interviews │  │ Apps │ │ Int. │ │Offers│        │
+│               │  └──────┘ └──────┘ └──────┘        │
+│ 📊 Analytics  │                                       │
+│               │   Application Overview                │
+│ ⚙️ Settings   │   ──────────────────────────────      │
+│               │        📈 Analytics Chart              │
+│               │                                       │
+└───────────────┴───────────────────────────────────────┘
+UX Principles
+Clear visual hierarchy
+Consistent spacing
+Minimal cognitive load
+Responsive layouts
+Accessible color contrast
+Meaningful empty states
+Loading states
+Form validation
+Toast notifications
+Confirmation dialogs for destructive actions
+✨ Core Features
+🔐 01. Secure Authentication
 
-</td>
-</tr><tr>
-<td>🔎 Smart Search
+A clean authentication experience with:
+
+Register
+Login
+Logout
+JWT authentication
+Password hashing
+Protected routes
+Persistent sessions
+UX
+┌─────────────────────────────┐
+│       Welcome Back 👋       │
+│                             │
+│  Email                      │
+│  ┌───────────────────────┐  │
+│  │ your@email.com        │  │
+│  └───────────────────────┘  │
+│                             │
+│  Password                   │
+│  ┌───────────────────────┐  │
+│  │ •••••••••••           │  │
+│  └───────────────────────┘  │
+│                             │
+│       [ Sign In ]           │
+│                             │
+│  Don't have an account?     │
+│        Create one           │
+└─────────────────────────────┘
+📊 02. Intelligent Dashboard
+
+The dashboard is the heart of CareerTrack.
+
+Key metrics
+┌────────────────┐
+│ Total Apps     │
+│      42        │
+└────────────────┘
+
+┌────────────────┐
+│ Interviews     │
+│       8        │
+└────────────────┘
+
+┌────────────────┐
+│ Offers         │
+│       3        │
+└────────────────┘
+
+┌────────────────┐
+│ Success Rate   │
+│     7.1%       │
+└────────────────┘
+Dashboard includes
+Application statistics
+Recent applications
+Upcoming interviews
+Deadlines
+Application trends
+Quick actions
+Status distribution
+💼 03. Application Management
+
+Create and manage applications through a clean interface.
+
+Application card
+┌────────────────────────────────────────┐
+│ 🟢 Google                              │
+│ Software Engineering Intern            │
+│                                        │
+│ 📍 Bangalore     💰 ₹40K/month         │
+│ 📅 Applied: Aug 12                     │
+│                                        │
+│ Status:  🟡 Interview                 │
+│                                        │
+│        [View] [Edit] [Delete]          │
+└────────────────────────────────────────┘
+Application fields
+Company
+Position
+Job type
+Location
+Salary / stipend
+Application date
+Deadline
+Job URL
+Status
+Notes
+Resume version
+🔄 04. Application Pipeline
+
+Visualize the entire job-search journey.
+
+┌──────────┐
+│ Wishlist │
+└────┬─────┘
+     ↓
+┌──────────┐
+│ Applied  │
+└────┬─────┘
+     ↓
+┌────────────┐
+│ Assessment │
+└────┬───────┘
+     ↓
+┌───────────┐
+│ Interview │
+└────┬──────┘
+     ↓
+┌──────────┐
+│ Selected │
+└──────────┘
+
+        ↘
+       Rejected
+
+Future versions can convert this into a drag-and-drop Kanban board.
+
+📅 05. Interview Tracker
+
+Never miss an interview again.
+
+Each interview can include:
+
+📅 Date
+⏰ Time
+🏢 Company
+👨‍💻 Position
+🔢 Interview round
+🎥 Interview type
+📝 Notes
+📚 Preparation material
+Upcoming interview UI
+┌─────────────────────────────────────────┐
+│ 🔔 Upcoming Interview                   │
+│                                         │
+│ Microsoft                               │
+│ Software Engineer Intern                │
+│                                         │
+│ 📅 Aug 18, 2026                         │
+│ ⏰ 10:30 AM                              │
+│ 🔵 Technical Round                       │
+│                                         │
+│        [ Prepare ]  [ View Details ]    │
+└─────────────────────────────────────────┘
+🔎 06. Powerful Search & Filters
 
 Quickly find applications using:
 
-- Company
-- Position
-- Status
-- Location
-- Job type
-- Date
+🔍 Search applications...
 
-</td><td>📄 Resume Manager
+[ Company ▼ ]
+[ Status ▼ ]
+[ Location ▼ ]
+[ Job Type ▼ ]
+[ Date ▼ ]
 
-Manage multiple resumes and connect the correct resume to each application.
+Users can combine multiple filters to quickly locate specific applications.
 
-</td>
-</tr>
-</table>---
+📈 07. Analytics Dashboard
 
-🟣 Application Status System
+Turn your job search into measurable data.
 
-CareerTrack provides a visual pipeline for tracking applications.
+Analytics include
+Applications per month
+Application status distribution
+Interview conversion rate
+Offer conversion rate
+Company-wise applications
+Most common job types
+Application success rate
 
-<p align="center">╭────────────╮
-│ 💜 Wishlist│
-╰─────┬──────╯
-      ↓
-╭────────────╮
-│ 🔵 Applied │
-╰─────┬──────╯
-      ↓
-╭──────────────╮
-│ 🟡 Assessment│
-╰──────┬───────╯
-       ↓
-╭─────────────╮
-│ 🟠 Interview│
-╰──────┬──────╯
-       ↓
-╭────────────╮
-│ 🟢 Selected │
-╰────────────╯
-
-       ↘
-    🔴 Rejected
-
-</p>---
-
-💼 Application Card UI
-
-╭──────────────────────────────────────────────╮
-│  🟢 Google                                   │
-│                                              │
-│  Software Engineering Intern                 │
-│                                              │
-│  📍 Bangalore      💰 ₹40K/month             │
-│  📅 Applied: Aug 12                         │
-│                                              │
-│  Status: 🟡 Interview                        │
-│                                              │
-│       [ 👁 View ] [ ✏️ Edit ] [ 🗑 Delete ]  │
-╰──────────────────────────────────────────────╯
-
-🎨 Status Colors
-
-Status| Indicator
-💜 Wishlist| "Purple"
-🔵 Applied| "Blue"
-🟡 Assessment| "Yellow"
-🟠 Interview| "Orange"
-🟢 Selected| "Green"
-🔴 Rejected| "Red"
-
----
-
-📊 Analytics
-
-CareerTrack transforms your applications into useful insights.
-
-Example Metrics
-
-╭───────────────╮
-│ Applications  │
-│      42       │
-╰───────────────╯
-
-╭───────────────╮
-│ Interviews    │
-│       8       │
-╰───────────────╯
-
-╭───────────────╮
-│ Offers        │
-│       3       │
-╰───────────────╯
-
-╭───────────────╮
-│ Success Rate  │
-│     7.1%      │
-╰───────────────╯
-
----
-
-📈 Career Analytics
+Example:
 
 Applications
 │
-│                         ████
-│                   ████  ████
-│             ████  ████  ████
-│       ████  ████  ████  ████
-│  ████ ████  ████  ████  ████
-└─────────────────────────────────
-    May    Jun    Jul    Aug
+│             ████
+│        ████ ████
+│   ████ ████ ████
+│   ████ ████ ████
+└────────────────────
+    May  Jun  Jul  Aug
+📄 08. Resume Management
 
-Future analytics will include:
+Manage multiple resume versions.
 
-- 📈 Applications over time
-- 🎯 Success rate
-- 💼 Company-wise applications
-- 📅 Monthly trends
-- 🔄 Interview conversion
-- 🏆 Offer conversion
+Example:
 
----
+Resume
+├── Resume_Software_Engineer.pdf
+├── Resume_AI_ML.pdf
+└── Resume_Frontend.pdf
 
-📱 Responsive Design
+Each application can be linked to the resume used for that application.
 
-CareerTrack is designed to provide a consistent experience across devices.
+🔔 09. Notifications & Reminders
 
-💻 Desktop
+Future notification system:
 
-Sidebar
-   +
-Dashboard
-   +
-Analytics
+Interview reminders
+Application deadlines
+Follow-up reminders
+Expiring applications
+Upcoming assessments
 
-📱 Mobile
+Example:
 
-┌───────────────────────┐
-│ 🚀 CareerTrack    ☰  │
-├───────────────────────┤
-│                       │
-│ Good morning 👋       │
-│                       │
-│ ┌────────┐ ┌────────┐│
-│ │   42   │ │    8   ││
-│ │  Apps  │ │ Inter. ││
-│ └────────┘ └────────┘│
-│                       │
-│ Recent Applications   │
-│                       │
-└───────────────────────┘
+🔔 Notifications
 
----
+• Google interview tomorrow
+• Microsoft application deadline in 2 days
+• Follow up with Amazon
+📱 Responsive UI
 
-🧩 UI Components
+CareerTrack is designed with a responsive-first approach.
 
-The frontend is built around reusable components.
+Desktop
+Sidebar + Dashboard + Analytics
+Tablet
+Collapsible Sidebar
+        +
+Responsive Cards
+Mobile
+┌──────────────────────┐
+│ CareerTrack      ☰   │
+├──────────────────────┤
+│                      │
+│ Good morning 👋      │
+│                      │
+│ ┌──────┐ ┌──────┐   │
+│ │  42  │ │  8   │   │
+│ │ Apps │ │ Int. │   │
+│ └──────┘ └──────┘   │
+│                      │
+│ Recent Applications  │
+│                      │
+└──────────────────────┘
+📸 Screenshots
 
-components/
-│
-├── 🎨 Navbar
-├── 📚 Sidebar
-├── 💳 StatCard
-├── 💼 ApplicationCard
-├── 📅 InterviewCard
-├── 🔍 SearchBar
-├── 🎛️ FilterPanel
-├── 🪟 Modal
-├── 🔔 Notification
-├── 📊 Chart
-└── 📝 Form
+Add real screenshots here once the UI is implemented.
 
-This makes the interface easier to maintain and scale.
+🏠 Dashboard
+docs/screenshots/dashboard.png
+💼 Applications
+docs/screenshots/applications.png
+📅 Interview Tracker
+docs/screenshots/interviews.png
+📊 Analytics
+docs/screenshots/analytics.png
 
----
+Recommended GitHub structure:
 
-🛠️ Tech Stack
+docs/
+└── screenshots/
+    ├── dashboard.png
+    ├── applications.png
+    ├── interviews.png
+    └── analytics.png
 
-<p align="center">Layer| Technology
-🎨 Frontend| React.js
-💅 Styling| Tailwind CSS
-🧭 Routing| React Router
-🔄 API| Axios
-📊 Charts| Recharts
-⚙️ Backend| Node.js
-🚀 Server| Express.js
-🗄️ Database| MongoDB
-🔗 ODM| Mongoose
-🔐 Authentication| JWT
-🔑 Security| bcrypt
-🧰 Version Control| Git + GitHub
+Then display them in the README:
 
-</p>---
-
-🏗️ Architecture
-
-                         👤 USER
+![Dashboard](docs/screenshots/dashboard.png)
+🧭 User Journey
+                ┌─────────────┐
+                │   Sign Up   │
+                └──────┬──────┘
+                       ↓
+                ┌─────────────┐
+                │  Dashboard  │
+                └──────┬──────┘
+                       ↓
+              ┌─────────────────┐
+              │ Add Application │
+              └────────┬────────┘
+                       ↓
+               ┌──────────────┐
+               │ Track Status │
+               └──────┬───────┘
+                      ↓
+              ┌───────────────┐
+              │    Interview  │
+              └───────┬───────┘
+                      ↓
+               ┌─────────────┐
+               │   Outcome   │
+               └──────┬──────┘
+                      ↓
+                📊 Analytics
+🏗️ System Architecture
+                         CLIENT
+                  ┌─────────────────┐
+                  │     React       │
+                  │    Tailwind     │
+                  └────────┬────────┘
+                           │
+                        Axios
                            │
                            ▼
-                 ┌───────────────────┐
-                 │   React Frontend  │
-                 │                   │
-                 │ Tailwind + Router │
-                 └─────────┬─────────┘
-                           │
-                         Axios
+                    REST API Layer
                            │
                            ▼
-                 ┌───────────────────┐
-                 │    REST API       │
-                 │                   │
-                 │ Express + Node.js │
-                 └─────────┬─────────┘
+                  ┌─────────────────┐
+                  │    Express.js   │
+                  │    Node.js      │
+                  └────────┬────────┘
                            │
                  ┌─────────┴─────────┐
                  │                   │
                  ▼                   ▼
-          🔐 Authentication      📦 Controllers
+           Authentication        Controllers
                  │                   │
                  └─────────┬─────────┘
                            │
                            ▼
-                    Mongoose ODM
+                     Mongoose ODM
                            │
                            ▼
-                 ┌───────────────────┐
-                 │     MongoDB       │
-                 │    Database       │
-                 └───────────────────┘
-
----
-
+                  ┌─────────────────┐
+                  │     MongoDB     │
+                  └─────────────────┘
 📁 Project Structure
-
 CareerTrack/
 │
 ├── client/
 │   ├── public/
 │   └── src/
-│       │
 │       ├── components/
 │       │   ├── Navbar/
 │       │   ├── Sidebar/
 │       │   ├── ApplicationCard/
-│       │   ├── InterviewCard/
 │       │   ├── StatCard/
 │       │   └── Modal/
 │       │
@@ -388,8 +449,8 @@ CareerTrack/
 │       │   ├── Analytics/
 │       │   └── Profile/
 │       │
-│       ├── context/
 │       ├── hooks/
+│       ├── context/
 │       ├── services/
 │       ├── utils/
 │       ├── App.jsx
@@ -408,311 +469,278 @@ CareerTrack/
 │   └── screenshots/
 │
 ├── .gitignore
-├── package.json
-└── README.md
-
----
-
+├── README.md
+└── package.json
+🛠️ Tech Stack
+Technology	Purpose
+React.js	Frontend
+Tailwind CSS	UI / UX
+React Router	Navigation
+Axios	API requests
+Recharts	Analytics
+Node.js	Backend runtime
+Express.js	REST API
+MongoDB	Database
+Mongoose	ODM
+JWT	Authentication
+bcrypt	Password security
+Git & GitHub	Version control
 ⚙️ Installation
+Prerequisites
 
-1️⃣ Clone the repository
+Make sure you have:
 
+Node.js 18+
+npm
+MongoDB
+Git
+Clone
 git clone https://github.com/your-username/careertrack.git
 cd careertrack
-
-2️⃣ Install backend
-
+Backend
 cd server
 npm install
-
-3️⃣ Install frontend
-
+Frontend
 cd ../client
 npm install
-
----
-
 🔑 Environment Variables
 
 Create:
 
 server/.env
 
+Add:
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-⚠️ Never upload ".env" to GitHub.
+Never commit .env to GitHub.
 
-Add:
-
-.env
-node_modules/
-
-to ".gitignore".
-
----
-
-▶️ Run the Project
-
+▶️ Run Locally
 Backend
-
 cd server
 npm run dev
-
 Frontend
+
+Open another terminal:
 
 cd client
 npm run dev
 
-Open:
+Then open:
 
 http://localhost:5173
-
----
-
 🔌 REST API
+Authentication
+Method	Endpoint	Purpose
+POST	/api/auth/register	Register
+POST	/api/auth/login	Login
+GET	/api/auth/me	Current user
+Applications
+Method	Endpoint	Purpose
+GET	/api/applications	Get applications
+POST	/api/applications	Create application
+GET	/api/applications/:id	Get application
+PUT	/api/applications/:id	Update application
+DELETE	/api/applications/:id	Delete application
+Interviews
+Method	Endpoint	Purpose
+GET	/api/interviews	Get interviews
+POST	/api/interviews	Create interview
+PUT	/api/interviews/:id	Update interview
+DELETE	/api/interviews/:id	Delete interview
+🔒 Security
 
-🔐 Authentication
+CareerTrack implements:
 
-Method| Endpoint| Description
-🟢 POST| "/api/auth/register"| Register
-🟢 POST| "/api/auth/login"| Login
-🔵 GET| "/api/auth/me"| Current user
+🔐 JWT authentication
+🔑 bcrypt password hashing
+🛡️ Protected routes
+🔒 Environment variables
+👤 User-specific resources
+✅ Input validation
+🚫 Unauthorized request protection
+🚀 Roadmap
+Phase 1 — MVP
 
-💼 Applications
+Project setup
 
-Method| Endpoint| Description
-🔵 GET| "/api/applications"| Get applications
-🟢 POST| "/api/applications"| Create
-🔵 GET| "/api/applications/:id"| Get one
-🟡 PUT| "/api/applications/:id"| Update
-🔴 DELETE| "/api/applications/:id"| Delete
+Authentication
 
----
+User dashboard
 
-🗺️ Roadmap
+Application CRUD
 
-🟢 Phase 1 — MVP
+Application status
 
-- [x] Project setup
-- [ ] Authentication
-- [ ] Dashboard
-- [ ] Application CRUD
-- [ ] Search
-- [ ] Filters
-- [ ] Status tracking
+Search
 
-🔵 Phase 2 — Productivity
+Filtering
 
-- [ ] Interview tracker
-- [ ] Resume manager
-- [ ] Deadline reminders
-- [ ] Notifications
-- [ ] Kanban board
-- [ ] Calendar integration
-- [ ] Dark mode
+Phase 2 — Productivity
 
-🟣 Phase 3 — Analytics
+Interview tracker
 
-- [ ] Application charts
-- [ ] Success rate
-- [ ] Conversion analytics
-- [ ] Monthly reports
-- [ ] CSV export
-- [ ] PDF reports
+Resume management
 
-🔥 Phase 4 — AI
+Notifications
 
-- [ ] AI Resume Analyzer
-- [ ] Resume-job matching
-- [ ] Job description analyzer
-- [ ] AI interview questions
-- [ ] AI interview preparation
-- [ ] Personalized career recommendations
+Deadline reminders
 
----
+Kanban board
 
-🤖 AI Career Assistant — Future Vision
+Calendar
 
-             📄 RESUME
-                 │
-                 ▼
-        ┌──────────────────┐
-        │   AI ANALYZER    │
-        └────────┬─────────┘
-                 │
-                 ▼
-          🧠 SKILL EXTRACTION
-                 │
-                 ▼
-       ┌────────────────────┐
-       │ JOB DESCRIPTION    │
-       └─────────┬──────────┘
-                 │
-                 ▼
-          🎯 MATCH SCORE
-                 │
-                 ▼
-       ┌────────────────────┐
-       │ AI RECOMMENDATIONS │
-       └────────────────────┘
+Phase 3 — Analytics
+
+Application charts
+
+Success rate
+
+Conversion analytics
+
+Monthly reports
+
+Export to CSV/PDF
+
+Phase 4 — AI 🚀
+
+AI Resume Analyzer
+
+Resume-job match score
+
+Job description analyzer
+
+AI interview questions
+
+AI interview preparation
+
+Personalized career recommendations
+
+🤖 Future AI Architecture
+
+The future AI layer could work like this:
+
+Job Description
+       │
+       ▼
+┌─────────────────────┐
+│   AI Skill Extractor│
+└──────────┬──────────┘
+           │
+           ▼
+      Required Skills
+           │
+           ▼
+┌─────────────────────┐
+│   Resume Analyzer   │
+└──────────┬──────────┘
+           │
+           ▼
+     Match Score
+           │
+           ▼
+┌─────────────────────┐
+│ Career Suggestions  │
+└─────────────────────┘
 
 Example:
 
-🎯 Resume Match
+Job: Frontend Developer
 
-██████████████████░░  87%
-
+Required:
 ✓ React
 ✓ JavaScript
 ✓ HTML
 ✓ CSS
 ✓ Git
 
-⚠ Missing:
-• TypeScript
-• Testing
+Resume Match:
+████████████████░░░░ 82%
 
-💡 Recommendation:
-Build a TypeScript + React project
-to improve your match score.
-
----
-
-🔐 Security
-
-CareerTrack uses:
-
-- 🔐 JWT authentication
-- 🔑 bcrypt password hashing
-- 🛡️ Protected API routes
-- 🔒 Environment variables
-- 👤 User-specific data access
-- ✅ Input validation
-- 🚫 Unauthorized access protection
-
----
-
+Recommended:
+→ Improve TypeScript
+→ Add React project
+→ Practice frontend interviews
 🧪 Testing
 
-Planned testing stack:
+Future testing setup:
 
 Frontend
-├── Vitest
-└── React Testing Library
+→ React Testing Library
+→ Jest / Vitest
 
 Backend
-├── Jest
-└── Supertest
+→ Jest
+→ Supertest
 
 API
-└── Postman
+→ Postman
+📈 Performance Goals
 
----
+CareerTrack aims to provide:
 
-📸 Screenshots
-
-«Replace these placeholders with actual screenshots after completing the UI.»
-
-🏠 Dashboard
-
-<p align="center">
-  <img src="docs/screenshots/dashboard.png" width="90%" alt="CareerTrack Dashboard"/>
-</p>💼 Applications
-
-<p align="center">
-  <img src="docs/screenshots/applications.png" width="90%" alt="Applications Dashboard"/>
-</p>📅 Interviews
-
-<p align="center">
-  <img src="docs/screenshots/interviews.png" width="90%" alt="Interview Tracker"/>
-</p>📊 Analytics
-
-<p align="center">
-  <img src="docs/screenshots/analytics.png" width="90%" alt="Career Analytics"/>
-</p>---
-
-📈 Project Goals
-
-CareerTrack aims to become more than a simple CRUD project.
-
-             BASIC CRUD
-                 │
-                 ▼
-          Full-Stack MERN
-                 │
-                 ▼
-          SaaS Dashboard
-                 │
-                 ▼
-        Analytics Platform
-                 │
-                 ▼
-          🤖 AI Career Tool
-
-The long-term goal is to build a production-quality career management platform.
-
----
-
+⚡ Fast page loading
+📱 Responsive UI
+🧩 Reusable components
+🔄 Efficient API requests
+📊 Optimized database queries
+🗃️ Proper database indexing
+♻️ Maintainable code
 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
-git checkout -b feature/new-feature
+git checkout -b feature/your-feature
+
+Make your changes and commit:
 
 git add .
-git commit -m "Add new feature"
+git commit -m "Add your feature"
 
-git push origin feature/new-feature
+Push:
+
+git push origin feature/your-feature
 
 Then open a Pull Request.
 
----
+⭐ Show Your Support
 
-⭐ Support the Project
+If you find CareerTrack useful:
 
-If you like CareerTrack:
-
-<p align="center">⭐ Star the repository
+⭐ Star the repository
 🍴 Fork the project
 🐛 Report bugs
 💡 Suggest features
 🤝 Contribute
 
-</p>---
-
 👨‍💻 Author
+Ronak Sharma
 
-<p align="center">Ronak Sharma
+B.Tech CSE — AI & ML
 
-🎓 B.Tech CSE — AI & ML
+Interested in:
 
-💻 Full-Stack Developer
-🤖 AI/ML Enthusiast
-🧠 DSA Learner
-🚀 Building Real-World Projects
-
-</p>---
-
+💻 Full-Stack Development
+🤖 Artificial Intelligence
+🧠 Machine Learning
+📊 Data Structures & Algorithms
+🚀 Building real-world products
 📬 Connect
-
-<p align="center"><a href="https://github.com/your-username">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a><a href="https://linkedin.com/in/your-profile">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a></p>---
-
+GitHub: your-github-username
+LinkedIn: your-linkedin-profile
+Portfolio: your-portfolio-url
 📜 License
 
 This project is licensed under the MIT License.
 
----
+<div align="center">
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,100:6366f1&height=120&section=footer"/>🚀 CareerTrack
+🚀 CareerTrack
 
 Organize your applications. Track your progress. Build your career.
 
-⭐ If this project helped you, consider giving it a star!
+⭐ Star the repository if you like the project!
 
-</p>
+</div>
