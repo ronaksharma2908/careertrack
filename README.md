@@ -1,9 +1,10 @@
-# 🚀 CareerTrack
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:8b5cf6,100:06b6d4&height=220&section=header&text=CareerTrack&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
 </p>
 
+ # 🚀 CareerTrack
+ 
 <p align="center">
   <strong>💼 Your Personal Internship & Job Application Command Center</strong>
 </p>
